@@ -127,6 +127,7 @@ so that these helpers are automatically loaded in production environments.
     | 4.0.1.0 | c84c8ab          | 4.0.1 release (fixed hdd icon and fa-stack alignment)                     |
     | 4.0.3.0 | 0373b63          | 4.0.3 release (minor icon renames and updates)                            |
     | 4.0.3.1 | 44e127f          | 4.0.3 release (embedding of fonts dynamically)                            |
+    | 4.0.3.2 | 629011e          | 4.0.3 release (embedding of fonts minor tweak)                            |
 
 **note on version 0.2.0**: FontAwesome now includes scss and sass files, but
 when I used them instead of the plain ol css file included in the project, it

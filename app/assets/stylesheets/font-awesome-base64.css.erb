@@ -6,11 +6,11 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(<%= "data:application/x-font-otf;charset=utf-8;base64,#{Base64.strict_encode64(Rails.application.assets['FontAwesome.otf'].to_s)}" %>) format('otf'),
-       url(<%= "data:application/x-font-woff;charset=utf-8;base64,#{Base64.strict_encode64(Rails.application.assets['fontawesome-webfont.woff'].to_s)}" %>) format('woff'),
-       url(<%= "data:application/x-font-ttf;charset=utf-8;base64,#{Base64.strict_encode64(Rails.application.assets['fontawesome-webfont.ttf'].to_s)}" %>) format('ttf'),
-       url(<%= "data:application/vnd.ms-fontobject;charset=utf-8;base64,#{Base64.strict_encode64(Rails.application.assets['fontawesome-webfont.eot'].to_s)}" %>) format('eot'),
-       url(<%= "data:image/svg+xml;charset=utf-8;base64,#{Base64.strict_encode64(Rails.application.assets['fontawesome-webfont.svg'].to_s)}" %>) format('svg');
+  src: url(data:application/x-font-otf;charset=utf-8;base64,<%= Base64.strict_encode64(Rails.application.assets['FontAwesome.otf'].to_s) %>) format('otf'),
+       url(data:application/x-font-woff;charset=utf-8;base64,<%= Base64.strict_encode64(Rails.application.assets['fontawesome-webfont.woff'].to_s) %>) format('woff'),
+       url(data:application/x-font-ttf;charset=utf-8;base64,<%= Base64.strict_encode64(Rails.application.assets['fontawesome-webfont.ttf'].to_s) %>) format('ttf'),
+       url(data:application/vnd.ms-fontobject;charset=utf-8;base64,<%= Base64.strict_encode64(Rails.application.assets['fontawesome-webfont.eot'].to_s) %>) format('eot'),
+       url(data:image/svg+xml;charset=utf-8;base64,<%= Base64.strict_encode64(Rails.application.assets['fontawesome-webfont.svg'].to_s) %>) format('svg');
   font-weight: normal;
   font-style: normal;
 }

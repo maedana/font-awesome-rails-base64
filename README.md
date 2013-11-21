@@ -46,6 +46,10 @@ If you prefer [SCSS](http://sass-lang.com/docs.html), add this to your
 ```scss
 @import "font-awesome";
 ```
+or
+```scss
+@import "font-awesome-base64";
+```
 
 If you use the
 [Sass indented syntax](http://sass-lang.com/docs/yardoc/file.INDENTED_SYNTAX.html),
@@ -53,6 +57,11 @@ add this to your `application.css.sass` file:
 
 ```sass
 @import font-awesome
+```
+or
+
+```sass
+@import font-awesome-base64
 ```
 
 ### Helpers

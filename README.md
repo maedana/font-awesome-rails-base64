@@ -1,4 +1,4 @@
-# font-awesome-rails [![Gem Version](https://badge.fury.io/rb/font-awesome-rails.png)](http://badge.fury.io/rb/font-awesome-rails) [![Build Status](https://secure.travis-ci.org/bokmann/font-awesome-rails.png)](http://travis-ci.org/bokmann/font-awesome-rails)
+# font-awesome-rails [![Gem Version](https://badge.fury.io/rb/font-awesome-rails-base64.png)](http://badge.fury.io/rb/font-awesome-rails-base64)
 
 font-awesome-rails provides the
 [Font-Awesome](http://fortawesome.github.com/Font-Awesome/) web fonts and
@@ -9,7 +9,7 @@ stylesheets as a Rails engine for use with the asset pipeline.
 Add this to your Gemfile:
 
 ```ruby
-gem "font-awesome-rails"
+gem "font-awesome-rails-base64"
 ```
 
 and run `bundle install`.
@@ -23,6 +23,16 @@ In your `application.css`, include the css file:
  *= require font-awesome
  */
 ```
+
+Alternatively, you can add the base64 encoded version of the css file (for pdf generation purposes) like so:
+
+
+```css
+/*
+ *= require font-awesome-base64
+ */
+```
+
 Then restart your webserver if it was previously running.
 
 Congrats! You now have scalable vector icon support. Pick an icon and check out the

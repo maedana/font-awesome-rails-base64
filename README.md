@@ -1,4 +1,4 @@
-# font-awesome-rails [![Gem Version](https://badge.fury.io/rb/font-awesome-rails-base64.png)](http://badge.fury.io/rb/font-awesome-rails-base64)
+# font-awesome-rails-base64 [![Gem Version](https://badge.fury.io/rb/font-awesome-rails-base64.png)](http://badge.fury.io/rb/font-awesome-rails-base64)
 
 font-awesome-rails provides the
 [Font-Awesome](http://fortawesome.github.com/Font-Awesome/) web fonts and
